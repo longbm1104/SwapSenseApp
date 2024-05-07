@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_dashboard">
+
+    <!-- TODO -->
+    <!-- fragment 1 -->
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.swapsense.ui.dashboard.DashboardFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <!-- fragment 2 -->
+    <fragment
+        android:id="@+id/navigation_face_swap"
+        android:name="com.example.swapsense.ui.faceswap.FaceSwapFragment"
+        android:label="@string/title_face_swap"
+        tools:layout="@layout/fragment_face_swap" />
+
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.example.swapsense.ui.camera.CameraFragment"
+        android:label="@string/title_face_swap"
+        tools:layout="@layout/fragment_camera" />
+
+</navigation>
