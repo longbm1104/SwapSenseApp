@@ -100,13 +100,13 @@ class DashboardFragment : Fragment(), SensorEventListener{
             // TODO: Implement logic for accelerometer
             when (requestCode) {
                 REQUEST_CODE_ACCELEROMETER -> {
-                    acceleratorTV.text = "Accelerator: " + acceleratorData
+                    acceleratorTV.text = acceleratorData.toString()
                 }
                 REQUEST_CODE_GYROSCOPE -> {
-                    gyroscopeTV.text = "Gyroscope: " + gyroscopeData
+                    gyroscopeTV.text = gyroscopeData.toString()
                 }
                 REQUEST_CODE_LIGHT -> {
-                    lightTV.text = "Light: " + lightData
+                    lightTV.text = lightData.toString()
                 }
             }
         }
@@ -122,21 +122,21 @@ class DashboardFragment : Fragment(), SensorEventListener{
                 if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     // Permission granted, proceed with your logic
                     // TODO: Implement logic for accelerometer
-                    acceleratorTV.text = "Accelerator: " + acceleratorData
+                    acceleratorTV.text = acceleratorData.toString()
                 }
             }
             REQUEST_CODE_GYROSCOPE -> {
                 if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     // Permission granted, proceed with your logic
                     // TODO: Implement logic for gyroscope
-                    gyroscopeTV.text = "Gyroscope: " + gyroscopeData
+                    gyroscopeTV.text = gyroscopeData.toString()
                 }
             }
             REQUEST_CODE_LIGHT -> {
                 if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     // Permission granted, proceed with your logic
                     // TODO: Implement logic for light sensor
-                    lightTV.text = "Light: " + lightData
+                    lightTV.text = lightData.toString()
                 }
             }
         }
