@@ -19,3 +19,6 @@ It took me 30 hours to finish this app.
 
 The most challenging part of this app is the swap face tab where I have to debug a lot on how to use
 the ML package and displaying the swapped face images correctly.
+
+This is the Figma Design of the sensors page: 
+https://www.figma.com/file/UKA0TK1yF9wpuNNDLyTzS4/HW2-Bonus?type=design&node-id=0%3A1&mode=design&t=xji1DexcpSyZW040-1
