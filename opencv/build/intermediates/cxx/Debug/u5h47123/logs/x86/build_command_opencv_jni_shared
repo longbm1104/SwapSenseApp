@@ -1,4 +1,4 @@
 /Users/longnguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja \
   -C \
-  /Users/longnguyen/Documents/LongBm/2024-SpringQuarter/SwapSenseApp/opencv/.cxx/Debug/u5h47123/x86 \
+  /Users/longnguyen/Documents/LongBm/2024-SpringQuarter/androidDev/SwapSenseApp/opencv/.cxx/Debug/u5h47123/x86 \
   opencv_jni_shared
